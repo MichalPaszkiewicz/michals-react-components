@@ -1,0 +1,26 @@
+{
+  "name": "michals-react-components",
+  "version": "1.0.0",
+  "description": "Useful react components for projects",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MichalPaszkiewicz@github.com/MichalPaszkiewicz/michals-react-components.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Michal Paszkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichalPaszkiewicz/michals-react-components/issues"
+  },
+  "homepage": "https://github.com/MichalPaszkiewicz/michals-react-components#readme",
+  "dependencies": {
+    "react": "^15.3.2"
+  }
+}
