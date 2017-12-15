@@ -4,7 +4,7 @@ import {ModalProps, Modal, ModalButton} from "./modal";
 
 export class ConfirmProps extends ReactProps{
     title: string;
-    isOpen: boolean;
+    show: boolean;
     onConfirm: (e?: any) => void;
     onReject: (e?: any) => void;
 }
@@ -13,9 +13,9 @@ export var Confirm = (props: ConfirmProps) => {
     return (
         <Modal 
             title={props.title} 
-            isOpen={props.isOpen} 
+            show={props.show} 
             onClose={props.onReject} 
-            modalButtons={[new ModalButton("OK", props.onConfirm)]}>
+            buttons={[new ModalButton("OK", props.onConfirm)]}>
             {props.children}
         </Modal>
     )

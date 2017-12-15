@@ -1,6 +1,6 @@
 {
   "name": "michals-react-components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Useful react components for projects",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MichalPaszkiewicz/michals-react-components#readme",
   "dependencies": {
+    "@types/react": "^15.0.20",
     "react": "^15.3.2"
   }
 }
